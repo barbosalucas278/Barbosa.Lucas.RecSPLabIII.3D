@@ -1,0 +1,46 @@
+$utilities: (
+  "opacity": (
+    property: opacity,
+    values: (
+      0: 0,
+      15: 0.15,
+      25: 0.25,
+      50: 0.5,
+      75: 0.75,
+      100: 1,
+    ),
+  ),
+);
+
+.bg-pisteando {
+  background-color: rgb(75, 128, 183);
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-25 {
+  opacity: 0.25;
+}
+.opacity-15 {
+  opacity: 0.15;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+.opacity-75 {
+  opacity: 0.75;
+}
+.opacity-100 {
+  opacity: 1;
+}
+.form-control {
+  background-color: rgba(0, 0, 0, 0.171) !important;
+}
+
+.btn-parcial {
+  background-color: rgb(110, 189, 7) !important;
+}
+.filtros {
+  background-color: rgba(255, 255, 255, 0.274) !important;
+}

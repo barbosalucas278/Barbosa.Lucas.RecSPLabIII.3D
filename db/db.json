@@ -1,0 +1,124 @@
+{
+  "anuncios": [
+    {
+      "id": 2,
+      "titulo": "Polo",
+      "tipoTransaccion": "alquiler",
+      "descripcion": "largo",
+      "precio": "123222",
+      "cantidadDePuertas": "1",
+      "cantidadDeKMs": "2",
+      "cantidadDePotencia": "3"
+    },
+    {
+      "id": 3,
+      "titulo": "Duna",
+      "tipoTransaccion": "venta",
+      "descripcion": "lindo",
+      "precio": "100",
+      "cantidadDePuertas": "1",
+      "cantidadDeKMs": "2",
+      "cantidadDePotencia": "3"
+    },
+    {
+      "id": 4,
+      "titulo": "Fiat tipo",
+      "tipoTransaccion": "alquiler",
+      "descripcion": "asdasd",
+      "precio": "230",
+      "cantidadDePuertas": "2",
+      "cantidadDeKMs": "2",
+      "cantidadDePotencia": "2"
+    },
+    {
+      "id": 5,
+      "titulo": "fitito",
+      "tipoTransaccion": "venta",
+      "descripcion": "pequeño",
+      "precio": "125333",
+      "cantidadDePuertas": "4",
+      "cantidadDeKMs": "200000",
+      "cantidadDePotencia": "20"
+    },
+    {
+      "id": 6,
+      "titulo": "F100",
+      "tipoTransaccion": "venta",
+      "descripcion": "Camioneta",
+      "precio": "125444",
+      "cantidadDePuertas": "3",
+      "cantidadDeKMs": "120766",
+      "cantidadDePotencia": "50"
+    },
+    {
+      "id": 7,
+      "titulo": "ferrari",
+      "tipoTransaccion": "alquiler",
+      "descripcion": "Roja",
+      "precio": "150000",
+      "cantidadDePuertas": "4",
+      "cantidadDeKMs": "20555",
+      "cantidadDePotencia": "20"
+    },
+    {
+      "id": 8,
+      "titulo": "Cochecito",
+      "tipoTransaccion": "alquiler",
+      "descripcion": "verde",
+      "precio": "2560",
+      "cantidadDePuertas": "3",
+      "cantidadDeKMs": "4",
+      "cantidadDePotencia": "5"
+    },
+    {
+      "id": 9,
+      "titulo": "Triciclo",
+      "tipoTransaccion": "venta",
+      "descripcion": "3 ruedas",
+      "precio": "25000",
+      "cantidadDePuertas": "0",
+      "cantidadDeKMs": "2555",
+      "cantidadDePotencia": "12"
+    },
+    {
+      "id": 10,
+      "titulo": "Toyota",
+      "tipoTransaccion": "venta",
+      "descripcion": "Buene stado",
+      "precio": "25000",
+      "cantidadDePuertas": "5",
+      "cantidadDeKMs": "4000",
+      "cantidadDePotencia": "88"
+    },
+    {
+      "id": 11,
+      "titulo": "Gol",
+      "tipoTransaccion": "venta",
+      "descripcion": "En perfecto estado",
+      "precio": "500000",
+      "cantidadDePuertas": "3",
+      "cantidadDeKMs": "25000",
+      "cantidadDePotencia": "20"
+    },
+    {
+      "id": 12,
+      "titulo": "Polo",
+      "tipoTransaccion": "alquiler",
+      "descripcion": "Flojo de papeles.",
+      "precio": "250885",
+      "cantidadDePuertas": "5",
+      "cantidadDeKMs": "15000",
+      "cantidadDePotencia": "25"
+    },
+    {
+      "id": 13,
+      "titulo": "Polo Octava Generación",
+      "tipoTransaccion": "alquiler",
+      "descripcion": "Auto del futuro",
+      "precio": "589666",
+      "cantidadDePuertas": "7",
+      "cantidadDeKMs": "1000",
+      "cantidadDePotencia": "700"
+    }
+  ]
+}

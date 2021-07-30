@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 5502,
+    "prettier.printWidth": 120,
+    "prettier.proseWrap": "always",
+    "editor.minimap.maxColumn": 140
+}
