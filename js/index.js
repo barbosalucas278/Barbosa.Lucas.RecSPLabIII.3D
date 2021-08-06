@@ -17,7 +17,6 @@ const campoPromedioPotencia = document.getElementById("PromedioPotencia");
 const selFiltro = {};
 selFiltro.selectFiltro = document.getElementById("selFiltro");
 selFiltro.promedio = document.getElementById("inputPromedioFiltro");
-let checksLocalStorage = localStorage.getItem("checksLocalStorage").split(",") || [];
 const checkMostrados = {};
 checkMostrados.titulo = document.getElementById("checkTitulo");
 checkMostrados.descripcion = document.getElementById("checkDescripcion");
@@ -26,7 +25,7 @@ checkMostrados.precio = document.getElementById("checkPrecio");
 checkMostrados.cantidadDePuertas = document.getElementById("checkcantidadDePuertas");
 checkMostrados.cantidadDeKMs = document.getElementById("checkcantidadDeKMs");
 checkMostrados.cantidadDePotencia = document.getElementById("checkcantidadDePotencia");
-
+let checksLocalStorage;// = localStorage.getItem("checksLocalStorage") || cargarChecks(); //TODO: REPARAR ESTO
 const spinner = document.querySelector("#spinner");
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -280,14 +279,16 @@ async function altaAnuncio(a) {
 }
 
 //////////////////// Checks ///////////////////////
-function updateChecks() {
-  checksLocalStorage = localStorage.getItem("checksLocalStorage").split(',')
-  if (checksLocalStorage.length == 0) {
+function cargarChecks(){
+  const arrayChecks = [];
     for (const key in checkMostrados) {
-      checksLocalStorage.push(key);
+      arrayChecks.push(key);
     }
-  }
-
+    return arrayChecks;
+  
+}
+function updateChecks() {
+  checksLocalStorage = localStorage.getItem("checksLocalStorage") || cargarChecks();
   for (const check in checkMostrados) {
     if (checksLocalStorage.includes(check)) {
       checkMostrados[check].checked = true;
@@ -296,6 +297,7 @@ function updateChecks() {
     }
   }
 }
+
 ////////////////////Creacion de tabla dinamica ///////////////////
 function crearTabla(items) {
   const tabla = document.createElement("table");

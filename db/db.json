@@ -119,6 +119,26 @@
       "cantidadDePuertas": "7",
       "cantidadDeKMs": "1000",
       "cantidadDePotencia": "700"
+    },
+    {
+      "id": 14,
+      "titulo": "auto test",
+      "tipoTransaccion": "venta",
+      "descripcion": "anuncio dado de alta",
+      "precio": "25000",
+      "cantidadDePuertas": "5",
+      "cantidadDeKMs": "4",
+      "cantidadDePotencia": "8"
+    },
+    {
+      "id": 15,
+      "titulo": "Trabi",
+      "tipoTransaccion": "venta",
+      "descripcion": "roja",
+      "precio": "45",
+      "cantidadDePuertas": "4",
+      "cantidadDeKMs": "5",
+      "cantidadDePotencia": "8"
     }
   ]
 }
